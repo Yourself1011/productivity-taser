@@ -14,7 +14,7 @@ const App = () => {
             browser.runtime.openOptionsPage();
           }}
         >
-          edit blocked sites
+          settings
         </button>
       </div>
       <div className='absolute bottom-0 border-t border-t-neutral-200 bg-white p-2 left-0 w-full flex justify-between '>

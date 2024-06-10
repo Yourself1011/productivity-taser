@@ -199,7 +199,7 @@ const Options = () => {
       </form>
 
       <div>
-        <h1 className="mt-8 text-2xl">Serial</h1>
+        <h1 className="text-3xl mt-8">Serial</h1>
         <p>{serial ? <>Connected!</> : <>No serial connected, yet.</>}</p>
       </div>
       <button
@@ -242,6 +242,10 @@ const Options = () => {
             <SiDevpost /> Devpost
           </a>
         </div>
+      </div>
+      <div>
+        <h1 className="text-3xl mt-8">Stand Up Reminder</h1>
+        <p>Get reminded to stand up</p>
       </div>
     </div>
   );
